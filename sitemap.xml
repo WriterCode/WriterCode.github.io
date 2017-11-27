@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>writercode.github.io/404.html</loc>
+    
+    <lastmod>2017-11-27T09:12:16.011Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>writercode.github.io/about/index.html</loc>
+    
+    <lastmod>2017-11-27T09:11:59.279Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>writercode.github.io/2017/11/27/hello-hexo/</loc>
     
     <lastmod>2017-11-27T08:53:12.552Z</lastmod>
@@ -12,20 +26,6 @@
     <loc>writercode.github.io/resume.html</loc>
     
     <lastmod>2017-11-27T08:51:04.891Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>writercode.github.io/about/index.html</loc>
-    
-    <lastmod>2017-11-27T08:41:34.996Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>writercode.github.io/404.html</loc>
-    
-    <lastmod>2017-11-27T08:06:01.307Z</lastmod>
     
   </url>
   
