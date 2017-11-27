@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WriterCode</title>
+  <icon>https://www.gravatar.com/avatar/d5819f26b54e90cb5ba114431c09fb0a</icon>
+  <subtitle>学如逆水行舟，不进则退</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="writercode.github.io/"/>
+  <updated>2017-11-27T08:53:12.552Z</updated>
+  <id>writercode.github.io/</id>
+  
+  <author>
+    <name>费华枝</name>
+    <email>1097529720@qq.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人博客</title>
+    <link href="writercode.github.io/2017/11/27/hello-hexo/"/>
+    <id>writercode.github.io/2017/11/27/hello-hexo/</id>
+    <published>2017-11-27T06:27:22.000Z</published>
+    <updated>2017-11-27T08:53:12.552Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
