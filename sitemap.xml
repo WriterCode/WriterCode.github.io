@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>writercode.github.io/about/index.html</loc>
+    
+    <lastmod>2017-11-27T12:56:37.510Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>writercode.github.io/resume.html</loc>
     
     <lastmod>2017-11-27T12:21:12.861Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>writercode.github.io/404.html</loc>
     
     <lastmod>2017-11-27T09:27:50.530Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>writercode.github.io/about/index.html</loc>
-    
-    <lastmod>2017-11-27T09:20:47.935Z</lastmod>
     
   </url>
   
