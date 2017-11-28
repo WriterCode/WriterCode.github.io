@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>writercode.github.io/2017/11/28/vue/</loc>
+    
+    <lastmod>2017-11-28T03:41:26.132Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>writercode.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-11-28T03:08:47.640Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>writercode.github.io/tags/index.html</loc>
+    
+    <lastmod>2017-11-28T03:08:47.640Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>writercode.github.io/404.html</loc>
     
     <lastmod>2017-11-28T02:44:03.668Z</lastmod>
@@ -19,27 +40,6 @@
     <loc>writercode.github.io/resume.html</loc>
     
     <lastmod>2017-11-27T12:21:12.861Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>writercode.github.io/2017/11/27/hello-hexo/</loc>
-    
-    <lastmod>2017-11-27T08:53:12.552Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>writercode.github.io/categories/index.html</loc>
-    
-    <lastmod>2017-11-27T07:43:56.337Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>writercode.github.io/tags/index.html</loc>
-    
-    <lastmod>2017-11-27T07:43:11.054Z</lastmod>
     
   </url>
   

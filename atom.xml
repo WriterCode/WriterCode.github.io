@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="writercode.github.io/"/>
-  <updated>2017-11-27T08:53:12.552Z</updated>
+  <updated>2017-11-28T03:41:26.132Z</updated>
   <id>writercode.github.io/</id>
   
   <author>
@@ -17,16 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>个人博客</title>
-    <link href="writercode.github.io/2017/11/27/hello-hexo/"/>
-    <id>writercode.github.io/2017/11/27/hello-hexo/</id>
-    <published>2017-11-27T06:27:22.000Z</published>
-    <updated>2017-11-27T08:53:12.552Z</updated>
+    <title>VUE的值传递总结</title>
+    <link href="writercode.github.io/2017/11/28/vue/"/>
+    <id>writercode.github.io/2017/11/28/vue/</id>
+    <published>2017-11-28T02:59:30.000Z</published>
+    <updated>2017-11-28T03:41:26.132Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="vue.js" scheme="writercode.github.io/categories/vue-js/"/>
+    
+    
+      <category term="vue" scheme="writercode.github.io/tags/vue/"/>
     
   </entry>
   
