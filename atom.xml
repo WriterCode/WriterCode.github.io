@@ -50,6 +50,28 @@
   </entry>
   
   <entry>
+    <title>VUE的值传递总结--子传父</title>
+    <link href="writercode.github.io/2017/11/28/vue1/"/>
+    <id>writercode.github.io/2017/11/28/vue1/</id>
+    <published>2017-11-28T02:59:30.000Z</published>
+    <updated>2017-11-28T11:51:54.545Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一-子传父"><a href="#一-子传父" class="headerlink" title="一 子传父"></a>一 子传父</h1><p>我们知道，父组件使用 prop 传递数据给子组件。但子组件怎么跟父组件通信呢？这个时候 Vue 的自定义事件系统就派得上用场了。<br><a id="more"></a></p><h4 id="使用-v-on-绑定自定义事件"><a href="#使用-v-on-绑定自定义事件" class="headerlink" title="#使用 v-on 绑定自定义事件"></a><strong><em>#使用 v-on 绑定自定义事件</em></strong></h4><p>每个 Vue 实例都实现了事件接口，即：</p><ul><li>使用<strong>$on(eventName)</strong>监听事件</li><li>使用<strong>$emit(eventName)</strong>触发事件</li></ul><blockquote><p>Vue 的事件系统与浏览器的 EventTarget API 有所不同。尽管它们的运行起来类似，但是 $on 和 $emit 并不是addEventListener 和 dispatchEvent 的别名。</p></blockquote><p>另外，父组件可以在使用子组件的地方直接用 v-on 来监听子组件触发的事件。</p><blockquote><p>不能用 $on 侦听子组件释放的事件，而必须在模板里直接用 v-on 绑定，参见下面的例子。</p></blockquote><p>下面是一个例子:<br><strong><em>html部分</em></strong></p><pre><code>&lt;div id=&quot;father&quot;&gt;    &lt;p&gt;{{faData}}&lt;/p&gt;    &lt;p&gt;{{getData}}&lt;/p&gt;    &lt;son-item @diy-event=&quot;faMethod&quot;&gt;&lt;/son-item&gt;&lt;/div&gt;&lt;template id=&quot;son&quot;&gt;    &lt;div @click=&quot;sonMethod&quot;&gt;{{sonData}}&lt;/div&gt;&lt;/template&gt;</code></pre><p><strong><em>js部分</em></strong></p><pre><code>&lt;script&gt;    Vue.component(&apos;son-item&apos;, {        template: &apos;#son&apos;,        data() {            return {                sonData: &quot;这是子组件的数据&quot;            }        },        methods: {            sonMethod() {                this.$emit(&apos;diy-event&apos;, this.sonData);                console.log(this.sonData);            }        }    })    var app = new Vue({        el: &apos;#father&apos;,        data: {            faData: &quot;这是父组件的数据&quot;,            getData: &quot;哈哈哈哈&quot;        },        methods: {            faMethod(val) {                this.getData = val;                console.log(this.getData);            }        }    })&lt;/script&gt;</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一-子传父&quot;&gt;&lt;a href=&quot;#一-子传父&quot; class=&quot;headerlink&quot; title=&quot;一 子传父&quot;&gt;&lt;/a&gt;一 子传父&lt;/h1&gt;&lt;p&gt;我们知道，父组件使用 prop 传递数据给子组件。但子组件怎么跟父组件通信呢？这个时候 Vue 的自定义事件系统就派得上用场了。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="vue.js" scheme="writercode.github.io/categories/vue-js/"/>
+    
+    
+      <category term="vue" scheme="writercode.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
     <title>VUE的值传递总结--父传子</title>
     <link href="writercode.github.io/2017/11/28/vue/"/>
     <id>writercode.github.io/2017/11/28/vue/</id>
