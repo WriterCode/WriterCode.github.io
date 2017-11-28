@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="writercode.github.io/"/>
-  <updated>2017-11-28T07:10:01.586Z</updated>
+  <updated>2017-11-28T07:17:47.236Z</updated>
   <id>writercode.github.io/</id>
   
   <author>
@@ -21,24 +21,24 @@
     <link href="writercode.github.io/2017/11/28/css/"/>
     <id>writercode.github.io/2017/11/28/css/</id>
     <published>2017-11-28T06:51:23.000Z</published>
-    <updated>2017-11-28T07:10:01.586Z</updated>
+    <updated>2017-11-28T07:17:47.236Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="1-已知元素上下左右居中"><a href="#1-已知元素上下左右居中" class="headerlink" title="(1)已知元素上下左右居中"></a>(1)已知元素上下左右居中</h1><p><strong><em>例:已知宽高都是200的元素上下左右居中</em></strong></p><pre><code>#div1{    background-color:#6699FF;    width:200px;    height:200px;    position: absolute;        //父元素需要相对定位    top: 50%;    left: 50%;    margin-top:-100px ;   //二分之一的height，width    margin-left: -100px;}</code></pre><a id="more"></a><h1 id="2-未知元素上下左右居中"><a href="#2-未知元素上下左右居中" class="headerlink" title="(2)未知元素上下左右居中"></a>(2)未知元素上下左右居中</h1><pre><code>#div1{    width: 200px;    height: 200px;  //宽高就可以随意设置了，无需在设置其他的代码，永运句中显示    background-color: #6699FF;    margin:auto;    position: absolute;        //父元素需要相对定位    left: 0;    top: 0;    right: 0;    bottom: 0;}</code></pre><h1 id="3-那么问题来了，如何垂直居中一个"><a href="#3-那么问题来了，如何垂直居中一个" class="headerlink" title="(3)那么问题来了，如何垂直居中一个?"></a>(3)那么问题来了，如何垂直居中一个<img>?</h1><pre><code>#container {    display:table-cell;    text-align:center;    vertical-align:middle;}</code></pre>]]></content>
+    <content type="html"><![CDATA[<!-- # (1)已知元素上下左右居中***例:已知宽高都是200的元素上下左右居中***                #div1{                    background-color:#6699FF;                    width:200px;                    height:200px;                    position: absolute;        //父元素需要相对定位                    top: 50%;                    left: 50%;                    margin-top:-100px ;   //二分之一的height，width                    margin-left: -100px;                }<a id="more"></a><h1 id="2-未知元素上下左右居中"><a href="#2-未知元素上下左右居中" class="headerlink" title="(2)未知元素上下左右居中"></a>(2)未知元素上下左右居中</h1><pre><code>#div1{    width: 200px;    height: 200px;  //宽高就可以随意设置了，无需在设置其他的代码，永运句中显示    background-color: #6699FF;    margin:auto;    position: absolute;        //父元素需要相对定位    left: 0;    top: 0;    right: 0;    bottom: 0;}</code></pre><h1 id="3-那么问题来了，如何垂直居中一个"><a href="#3-那么问题来了，如何垂直居中一个" class="headerlink" title="(3)那么问题来了，如何垂直居中一个?"></a>(3)那么问题来了，如何垂直居中一个<img>?</h1><pre><code>#container {    display:table-cell;    text-align:center;    vertical-align:middle;} --&gt;</code></pre>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;1-已知元素上下左右居中&quot;&gt;&lt;a href=&quot;#1-已知元素上下左右居中&quot; class=&quot;headerlink&quot; title=&quot;(1)已知元素上下左右居中&quot;&gt;&lt;/a&gt;(1)已知元素上下左右居中&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;例:已知宽高都是200的元素上下左右居中&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#div1{
-    background-color:#6699FF;
-    width:200px;
-    height:200px;
-    position: absolute;        //父元素需要相对定位
-    top: 50%;
-    left: 50%;
-    margin-top:-100px ;   //二分之一的height，width
-    margin-left: -100px;
-}
-&lt;/code&gt;&lt;/pre&gt;
+      &lt;!-- # (1)已知元素上下左右居中
+***例:已知宽高都是200的元素上下左右居中***
+                #div1{
+                    background-color:#6699FF;
+                    width:200px;
+                    height:200px;
+                    position: absolute;        //父元素需要相对定位
+                    top: 50%;
+                    left: 50%;
+                    margin-top:-100px ;   //二分之一的height，width
+                    margin-left: -100px;
+                }
     
     </summary>
     
